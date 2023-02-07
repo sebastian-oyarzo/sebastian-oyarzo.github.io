@@ -1,2 +1,2 @@
 # sebastian-oyarzo.github.io
-trabajos de Sebastian Oyarzo
+trabajos de Sebastian Oyarzo.
