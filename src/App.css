@@ -1,0 +1,38 @@
+.navdar{
+    max-width: 100%;
+    background-image: url(./assets/img/navdar.jpeg);
+    display: flex;
+    justify-content: center;
+    border-bottom: solid #fff 1px;
+    height: 19vh;
+    align-items: center;
+}
+
+.border {
+    border: solid #fff 2px ;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.main{
+    display: flex;
+    background-image: url(./assets/img/imagenMain.png);
+    height: 75vh;
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.perfil {
+    display: flex;
+    box-sizing: border-box;
+    padding: 0%;
+    max-width: 310px;
+    max-height: 300px;
+}
+
+.descripcion{
+    margin: 20px;
+    background-color: black;
+}
