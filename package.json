@@ -3,12 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://sebastian-oyarzo.github.io/sebastian-oyarzo",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "esimagen de pizza
-lint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "esimagen de pizza lint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
@@ -29,3 +30,6 @@ lint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "vite": "^4.3.9"
   }
 }
+
+
+

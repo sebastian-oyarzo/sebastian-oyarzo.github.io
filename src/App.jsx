@@ -9,7 +9,7 @@ import { Carrito } from './views/Carrito'
 function App() {
   return (
     <>
-      <Routes>
+      <Routes basename="/sebastian-oyarzo">
         <Route path="/" element= {<Home />} />
         <Route path="/homepizza" element={
           <div>
