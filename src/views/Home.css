@@ -1,10 +1,10 @@
 .navdar{
     max-width: 100%;
-    background-image: url(./assets/img/navdar.jpeg);
+    background-image: url(../assets//img/navdar.jpeg);
     display: flex;
     justify-content: center;
     border-bottom: solid #fff 1px;
-    height: 19vh;
+    height: 15vh;
     align-items: center;
 }
 
@@ -16,11 +16,11 @@
 
 .main{
     display: flex;
-    background-image: url(./assets/img/imagenMain.png);
-    height: 75vh;
+    background-image: url(../assets/img/imagenMain.png);
+    height: 70vh;
     max-width: 100%;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 20px;
 }
 
@@ -35,4 +35,5 @@
 .descripcion{
     margin: 20px;
     background-color: black;
+    min-width: 70%;
 }
