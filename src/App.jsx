@@ -7,6 +7,7 @@ import { Navigate } from 'react-router'
 import { NavdarPizza } from './components/NavdarPizza'
 import { Carrito } from './views/Carrito'
 
+
 function App() {
   return (
     <>
