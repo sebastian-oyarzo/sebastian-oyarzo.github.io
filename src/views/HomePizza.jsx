@@ -6,6 +6,7 @@ import  PizzaIcon  from '../assets/img/Pizza-favicon-16x16.png'
 import ShoppingIcon from '../assets/img/Shopping-favicon-16x16.png'
 import EyesIcon from '../assets/img/Eyes-favicon-16x16.png'
 import './pizza.css'
+import React from 'react'
 
 export const HomePizza = () => {
 

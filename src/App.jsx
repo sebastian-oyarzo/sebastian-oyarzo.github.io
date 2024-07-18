@@ -1,3 +1,4 @@
+import React from 'react'
 import { Home } from './views/Home'
 import { Route , Routes } from 'react-router'
 import { HomePizza } from './views/HomePizza'

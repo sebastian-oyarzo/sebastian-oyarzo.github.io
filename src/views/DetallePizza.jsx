@@ -4,6 +4,7 @@ import { useParams } from "react-router"
 import  PizzaIcon  from '../assets/img/Pizza-favicon-16x16.png'
 import ShoppingIcon from '../assets/img/Shopping-favicon-16x16.png'
 import { useNavigate } from 'react-router'
+import React from 'react'
 
 export const DetallePizza = () => {
   const { PizzaSelected , setPizzaSelected , pizzas , handlePrecio , Mayuscula , PuntoDecimal } = useContext(Context)

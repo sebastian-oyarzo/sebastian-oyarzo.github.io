@@ -1,5 +1,6 @@
 import { Context } from '../Context'
 import { useContext , useEffect  } from 'react'
+import React from 'react'
 
 export const Carrito = () => {
 

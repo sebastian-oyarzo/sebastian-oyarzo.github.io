@@ -3,6 +3,7 @@ import { NavdarHome } from '../components/NavdarHome'
 import imagen from '../assets/img/foto.sebastian.png'
 import { Link } from 'react-router-dom';
 import'./Home.css'
+import React from 'react'
 
 export const Home = () => {
   return (

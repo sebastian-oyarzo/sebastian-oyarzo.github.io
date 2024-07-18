@@ -1,3 +1,4 @@
+import React from 'react'
 import pizzaIcon from '../assets/img/Pizza-favicon.ico'
 import shoppingIcon from '../assets/img/Shopping-favicon.ico'
 import { useContext } from 'react'
