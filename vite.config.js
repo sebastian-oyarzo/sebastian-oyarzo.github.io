@@ -7,10 +7,19 @@
 // })
 
 
+// import { defineConfig } from 'vite';
+
+// export default defineConfig({
+//   build: {
+//     outDir: 'build', // Directorio de salida personalizado
+//   },
+// });
+
+
 import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  build: {
-    outDir: 'build', // Directorio de salida personalizado
-  },
+  base: '/sebastian-oyarzo.github.io/',
+  plugins: [react()],
 });
