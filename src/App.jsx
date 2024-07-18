@@ -10,7 +10,7 @@ import { Carrito } from './views/Carrito'
 function App() {
   return (
     <>
-      <Routes basename="/sebastian-oyarzo">
+      <Routes>
         <Route path="/" element= {<Home />} />
         <Route path="/homepizza" element={
           <div>
@@ -27,7 +27,7 @@ function App() {
         <Route path="/pizza/:*" element={
           <div>
                <NavdarPizza />
-               <Navigate to="/homepizza" />
+               <Navigate to="/" />
           </div>
           } />
         <Route path="/carrito" element={
@@ -36,7 +36,7 @@ function App() {
             <Carrito />
           </div>
           } />
-        <Route path="*" element={<Navigate to="/homepizza" />} />
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </>
   )
