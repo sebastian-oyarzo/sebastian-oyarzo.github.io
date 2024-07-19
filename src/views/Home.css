@@ -17,7 +17,7 @@
 .main{
     display: flex;
     background-image: url(../assets/img/imagenMain.png);
-    height: 70vh;
+    height: 85vh;
     max-width: 100%;
     flex-direction: row;
     justify-content: space-around;

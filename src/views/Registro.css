@@ -1,0 +1,10 @@
+.borderRegistro{
+    border: 1px solid rgb(109, 109, 109);
+    border-radius: 10%;
+    max-width: 290px;
+    background-color: #fff;
+}
+
+/* #priority{
+    background-color: #73d873;
+} */

@@ -28,14 +28,14 @@ export const NavdarPizza = () => {
     <div className='navdarPizza'>
         <div className='startNavdar' onClick={() => returnHome()}>
             <img className="ico" src={pizzaIcon} alt="icono de pizza" />
-            <h4> Pizzeria Mama Mia!</h4>
+            <h6 className='navdarP'> Pizzeria Mama Mia!</h6>
         </div>
         <dir>
             <button className='ButtonReturn' onClick={() => returnAll()}>volver a pag de sebastian</button>
         </dir>
         <div className='endNavdar' onClick={() => goToCarrito()}>
             <img  className="ico" src={shoppingIcon} alt=" carro de compras" />
-            <h4>$ { PuntoDecimal(Precio) } </h4>
+            <h6 className='navdarP'>$ { PuntoDecimal(Precio) } </h6>
         </div>
     </div>
   )

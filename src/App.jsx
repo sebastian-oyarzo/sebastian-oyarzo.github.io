@@ -6,6 +6,7 @@ import { DetallePizza } from './views/DetallePizza'
 import { Navigate } from 'react-router'
 import { NavdarPizza } from './components/NavdarPizza'
 import { Carrito } from './views/Carrito'
+import { Registro } from './views/Registro'
 
 
 function App() {
@@ -38,6 +39,9 @@ function App() {
           </div>
           } />
         <Route path="*" element={<Navigate to="/" />} />
+        <Route
+          path="Registro" element={<Registro />}
+        />
       </Routes>
     </>
   )

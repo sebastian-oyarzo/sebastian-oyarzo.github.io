@@ -35,7 +35,7 @@ export const HomePizza = () => {
             <div className='boxIngredients'>
               {pizzaCard.ingredients.map((ingrediente , key) => (
                 <div className='ingredientes' key={key}>
-                  <img src={PizzaIcon} alt="icono de pizza" />
+                  <img className="ico" src={PizzaIcon} alt="icono de pizza" />
                   <p className='ingrediente'>  {ingrediente}</p>
                 </div>
                 ))
@@ -43,8 +43,8 @@ export const HomePizza = () => {
             </div>
               <h2 className='price'>$ {PuntoDecimal(pizzaCard.price)} </h2>
               <div className='buttons'>
-                <button onClick={() => handleClick(pizzaCard.name)} className='verMas'> ver mas<img src={EyesIcon} alt="imagen de 2 ojos" /></button>
-                <button  onClick={() => handlePrecio(pizzaCard.price , pizzaCard.img , pizzaCard.name, +1)} className='añadir'>añadir<img src={ShoppingIcon} alt="imagen de carro de compras" /></button>
+                <button onClick={() => handleClick(pizzaCard.name)} className='verMas'> ver mas <img src={EyesIcon} alt="imagen de 2 ojos" /></button>
+                <button  onClick={() => handlePrecio(pizzaCard.price , pizzaCard.img , pizzaCard.name, +1)} className='añadir'>añadir <img src={ShoppingIcon} alt="imagen de carro de compras" /></button>
               </div>
           </div>
         ))

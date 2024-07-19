@@ -9,6 +9,7 @@ import { Carrito } from './views/Carrito'
 import { HomePizza } from './views/HomePizza'
 import { DetallePizza } from './views/DetallePizza'
 import { Navigate } from 'react-router'
+import { Registro } from './views/Registro.jsx'
 
 const router = createHashRouter([
   {
@@ -50,6 +51,10 @@ const router = createHashRouter([
   {
     path:"*" ,
     element:<Navigate to="/" />
+  } ,
+  {
+    path:"Registro" ,
+    element: <Registro />
   }
 ])
 

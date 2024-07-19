@@ -44,7 +44,7 @@ if (!PizzaSelected || Object.keys(PizzaSelected).length === 0) {
           <div className='boxIngredients'>
               { PizzaSelected.ingredients.map((ingrediente , key) => (
                 <div className='ingredientes' key={key}>
-                  <img src={PizzaIcon} alt="icono de pizza" />
+                  <img className="ico" src={PizzaIcon} alt="icono de pizza" />
                   <p className='ingrediente'>{ ingrediente }</p>
                 </div>
                 ))
