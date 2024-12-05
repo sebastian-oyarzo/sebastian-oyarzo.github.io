@@ -1,11 +1,13 @@
 .navdar{
-    max-width: 100%;
+    position: fixed;
+    width: 100%;
     background-image: url(../assets//img/navdar.jpeg);
     display: flex;
+    height: 15vh;
     justify-content: center;
     border-bottom: solid #fff 1px;
-    height: 15vh;
     align-items: center;
+
 }
 
 .border {
@@ -15,9 +17,10 @@
 }
 
 .main{
+    padding-top: 17vh;
     display: flex;
     background-image: url(../assets/img/imagenMain.png);
-    height: 85vh;
+    height: 100vh;
     max-width: 100%;
     flex-direction: row;
     justify-content: space-around;
@@ -37,3 +40,18 @@
     background-color: black;
     min-width: 70%;
 }
+
+
+@media (max-width: 576px) {
+
+.main{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+
+
+
+  }

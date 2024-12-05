@@ -15,6 +15,7 @@
 
 /* referente al navdar: */
 .navdarPizza {
+  width: 100%;
   background-color: #17a2b8;
   color: #fff;
   padding: 0px 10%;
@@ -23,6 +24,9 @@
   justify-content: space-between;
   height: 8vh;
   font-family: sans-serif, Verdana, Geneva, Tahoma;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
 }
 
 .navdarP {
@@ -30,11 +34,13 @@
 }
 
 .startNavdar{
+  cursor: pointer;
   display: flex;
   align-items: center;
 }
 
 .endNavdar {
+  cursor: pointer;
   display: flex;
   justify-content: end;
   align-items: end;
@@ -53,6 +59,7 @@
 
 /* referente a home: */
 .pizzaHome {
+  margin-top: 8vh ;
   width: 100%;
   height: 20vh;
   position: relative;
@@ -152,6 +159,7 @@ button {
 /* referente a la view de Detalle Pizza */
 
 .DetallePizza {
+  margin-top: 8vh ;
   display: flex;
   padding: 5% 10%;
   color: #000;
@@ -181,6 +189,7 @@ button {
 /* referente a la view de Carrito */
 
 .Carrito {
+  margin-top: 8vh ;
   padding: 5% 17%;
   color: #000;
 }
@@ -199,9 +208,10 @@ button {
 .mainCarrito {
   display: flex;
   border-bottom: solid 1px #cacaca;
+  justify-content: space-between;
 }
 .imgMini {
-  max-width: 7%;
+  width: 50px;
   padding: 5px;
 }
 

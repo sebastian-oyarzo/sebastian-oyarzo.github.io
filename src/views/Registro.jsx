@@ -50,7 +50,7 @@ export const Registro = () => {
         {forAlert}
         </Alert>
         </Row>
-        <button onClick={() => returnAll()} className='text-dark'>volver a proyecto sebastian</button>
+        <button onClick={() => returnAll()} className='text-dark'>volver a pag. principal</button>
     </Container>
 
   )

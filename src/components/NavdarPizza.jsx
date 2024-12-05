@@ -31,7 +31,7 @@ export const NavdarPizza = () => {
             <h6 className='navdarP'> Pizzeria Mama Mia!</h6>
         </div>
         <dir>
-            <button className='ButtonReturn' onClick={() => returnAll()}>volver a pag de sebastian</button>
+            <button className='ButtonReturn' onClick={() => returnAll()}>volver a pag. principal</button>
         </dir>
         <div className='endNavdar' onClick={() => goToCarrito()}>
             <img  className="ico" src={shoppingIcon} alt=" carro de compras" />
